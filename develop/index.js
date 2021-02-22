@@ -66,7 +66,7 @@ function init() {
         //call function afterwards
         .then((inqResponse) => {
             //call function for writing readme and generatemarkdown as params
-            writeToFile("README.md", generateMarkdown({ ...inqResponse }))
+            writeFile("README.md", generateMarkdown({ ...inqResponse }))
         })
         //log succession after calling function when readme generates
         .then(() => console.log("Success!!!"))
