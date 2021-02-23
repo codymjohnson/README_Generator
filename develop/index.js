@@ -25,7 +25,7 @@ const questions = [
     {
         type: "input",
         name: "installation",
-        message: "What prerequisites do you need to run the app?"
+        message: "What prerequisite software programs do you need to run the app?"
     },
     {
         type: "input",
